@@ -1,0 +1,61 @@
+$coloreBottoni:#ffa07a;
+$testoBottoni:#b0c4de;
+
+button{
+    background-color: $coloreBottoni;
+    color: $testoBottoni;
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    margin: 5px
+
+};
+/*  fine bottoni */
+
+/*  titolo app */
+$coloreh1:	#9370db;
+$font:sans-serif;
+h1{
+    font-family: $font;
+    color: $coloreh1;
+    text-align: center;
+}
+/*fine titolo app*/
+
+/*paramentri paragrafo */
+
+$padding:10px;
+$fontsize:18px;
+$font:sans-serif;
+$coloreP:#afeeee;
+p{
+    padding: $padding;
+    font-size: $fontsize;
+    font-family: $font;
+    color: $coloreP;
+    text-align: center;
+}
+
+.container{
+    width: 400px;
+    height: 500px;
+    margin: 10px auto;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+}
+.bottoni{
+    width: 100%;
+    height: 90px;
+    display: flex;flex-direction: row;
+    justify-content: center;
+    margin: 5px;
+}
+.paragrafo{
+    width: 80%;
+    height: 180px;
+    margin: 5px 5% ;
+
+}
